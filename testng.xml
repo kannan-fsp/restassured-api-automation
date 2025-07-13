@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="APISuite">
+    <test name="APITests">
+        <classes>
+            <class name="com.example.api.tests.SampleGetTest"/>
+            <class name="com.example.api.tests.SamplePostTest"/>
+            <class name="com.example.api.tests.SamplePutTest"/>
+            
+        </classes>
+    </test>
+</suite>
